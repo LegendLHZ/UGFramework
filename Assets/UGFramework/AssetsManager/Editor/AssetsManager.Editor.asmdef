@@ -1,0 +1,16 @@
+{
+    "name": "AssetsManager.Editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:5029dbd3aecf731418fe5907f9cc5ed6"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
