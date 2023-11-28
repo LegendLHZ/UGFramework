@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="03a3a211-0ed7-443d-bd83-3b9339673d43" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.UGFramework/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.UGFramework/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/新建文件夹.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,8 +11,16 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/cb1c94a571d140989f59bc38dfed683a284000/e9/09cdf572/SocketAsyncResult.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/873cb98bd7b6d9e3d289b4092a3736f854992bfff4d3bc2cfe6504213203974/System.Net.Sockets.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/NewBehaviourScript.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/NewBehaviourScript1.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/UGFramework/AssetsManager/Editor/AssetsBundleBuilder.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/UGFramework/AssetsManager/Editor/AssetsMD5Data.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/UGFramework/Net/INetworkChannel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/UGFramework/Net/NetworkManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/UGFramework/Net/TcpNetworkChannel.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -22,25 +30,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DebuggerViewTab_PTCS_FirstProportionKey": "0.34994584",
-    "DebuggerViewTab_PTCS_LastProportionKey": "0.0",
-    "Discover.Launch.Via.Unity": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DebuggerViewTab_PTCS_FirstProportionKey&quot;: &quot;0.34994584&quot;,
+    &quot;DebuggerViewTab_PTCS_LastProportionKey&quot;: &quot;0.0&quot;,
+    &quot;Discover.Launch.Via.Unity&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "rider.external.source.directories": [
-      "C:\\Users\\Administrator.DESKTOP-RDJ1NAF\\AppData\\Roaming\\JetBrains\\Rider2022.3\\resharper-host\\DecompilerCache",
-      "C:\\Users\\Administrator.DESKTOP-RDJ1NAF\\AppData\\Roaming\\JetBrains\\Rider2022.3\\resharper-host\\SourcesCache",
-      "C:\\Users\\Administrator.DESKTOP-RDJ1NAF\\AppData\\Local\\Symbols\\src"
+  &quot;keyToStringList&quot;: {
+    &quot;rider.external.source.directories&quot;: [
+      &quot;C:\\Users\\Administrator.DESKTOP-RDJ1NAF\\AppData\\Roaming\\JetBrains\\Rider2022.3\\resharper-host\\DecompilerCache&quot;,
+      &quot;C:\\Users\\Administrator.DESKTOP-RDJ1NAF\\AppData\\Roaming\\JetBrains\\Rider2022.3\\resharper-host\\SourcesCache&quot;,
+      &quot;C:\\Users\\Administrator.DESKTOP-RDJ1NAF\\AppData\\Local\\Symbols\\src&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2021.3.16f1c1\Editor\Unity.exe" />
@@ -68,10 +76,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="26476">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="21624">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="26476" />
+      <option name="pid" value="21624" />
       <option name="projectPathOnTarget" />
       <option name="selectedOptions">
         <list />
@@ -89,6 +97,7 @@
       <updated>1684458495234</updated>
       <workItem from="1684458496703" duration="2000" />
       <workItem from="1697183232675" duration="8263000" />
+      <workItem from="1701139322994" duration="13060000" />
     </task>
     <servers />
   </component>
@@ -115,6 +124,45 @@
             </endOffsets>
           </properties>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/NewBehaviourScript1.cs</url>
+          <line>30</line>
+          <properties documentPath="C:\Users\Administrator.DESKTOP-RDJ1NAF\Documents\UnityProject\UGFramework\Assets\NewBehaviourScript1.cs" initialLine="30" containingFunctionPresentation="method 'Update'">
+            <startOffsets>
+              <option value="689" />
+            </startOffsets>
+            <endOffsets>
+              <option value="746" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/UGFramework/Net/TcpNetworkChannel.cs</url>
+          <line>32</line>
+          <properties documentPath="C:\Users\Administrator.DESKTOP-RDJ1NAF\Documents\UnityProject\UGFramework\Assets\UGFramework\Net\TcpNetworkChannel.cs" initialLine="31" containingFunctionPresentation="method 'Connect'">
+            <startOffsets>
+              <option value="840" />
+            </startOffsets>
+            <endOffsets>
+              <option value="840" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/UGFramework/Net/TcpNetworkChannel.cs</url>
+          <line>38</line>
+          <properties documentPath="C:\Users\Administrator.DESKTOP-RDJ1NAF\Documents\UnityProject\UGFramework\Assets\UGFramework\Net\TcpNetworkChannel.cs" initialLine="35" containingFunctionPresentation="method 'Connect'">
+            <startOffsets>
+              <option value="1006" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1040" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
