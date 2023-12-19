@@ -3,7 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="03a3a211-0ed7-443d-bd83-3b9339673d43" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.UGFramework/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.UGFramework/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/NewBehaviourScript1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/NewBehaviourScript1.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UGFramework/Net/INetworkChannel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UGFramework/Net/INetworkChannel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/UGFramework/Net/TcpNetworkChannel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UGFramework/Net/TcpNetworkChannel.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,8 +14,13 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5a41d6b7189842eca409fd0b1c3e3dcf17bf78/ae/1ea8ee56/Action.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5a41d6b7189842eca409fd0b1c3e3dcf17bf78/bb/26cf6a94/Task.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/cb1c94a571d140989f59bc38dfed683a284000/e9/09cdf572/SocketAsyncResult.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/696aa455fd6736cddaf4da626e8bac73eb7a3f4de26241c24169a89f925074/System.Net.Http.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/873cb98bd7b6d9e3d289b4092a3736f854992bfff4d3bc2cfe6504213203974/System.Net.Sockets.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/9384495d2a482ac7341d67ca84e16d267d16c62458a9d67a92b119199a9/System.Threading.Tasks.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/NewBehaviourScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/NewBehaviourScript1.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/UGFramework/AssetsManager/Editor/AssetsBundleBuilder.cs" root0="FORCE_HIGHLIGHTING" />
@@ -76,10 +83,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="21624">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="25356">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="21624" />
+      <option name="pid" value="25356" />
       <option name="projectPathOnTarget" />
       <option name="selectedOptions">
         <list />
@@ -97,7 +104,9 @@
       <updated>1684458495234</updated>
       <workItem from="1684458496703" duration="2000" />
       <workItem from="1697183232675" duration="8263000" />
-      <workItem from="1701139322994" duration="13060000" />
+      <workItem from="1701139322994" duration="13611000" />
+      <workItem from="1701223373057" duration="2692000" />
+      <workItem from="1702953857142" duration="13988000" />
     </task>
     <servers />
   </component>
@@ -126,43 +135,17 @@
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/NewBehaviourScript1.cs</url>
-          <line>30</line>
-          <properties documentPath="C:\Users\Administrator.DESKTOP-RDJ1NAF\Documents\UnityProject\UGFramework\Assets\NewBehaviourScript1.cs" initialLine="30" containingFunctionPresentation="method 'Update'">
-            <startOffsets>
-              <option value="689" />
-            </startOffsets>
-            <endOffsets>
-              <option value="746" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Assets/UGFramework/Net/TcpNetworkChannel.cs</url>
-          <line>32</line>
-          <properties documentPath="C:\Users\Administrator.DESKTOP-RDJ1NAF\Documents\UnityProject\UGFramework\Assets\UGFramework\Net\TcpNetworkChannel.cs" initialLine="31" containingFunctionPresentation="method 'Connect'">
+          <line>74</line>
+          <properties documentPath="C:\Users\Administrator.DESKTOP-RDJ1NAF\Documents\UnityProject\UGFramework\Assets\UGFramework\Net\TcpNetworkChannel.cs" initialLine="74" containingFunctionPresentation="method 'ConnectCallback'">
             <startOffsets>
-              <option value="840" />
+              <option value="1945" />
             </startOffsets>
             <endOffsets>
-              <option value="840" />
+              <option value="2136" />
             </endOffsets>
           </properties>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/UGFramework/Net/TcpNetworkChannel.cs</url>
-          <line>38</line>
-          <properties documentPath="C:\Users\Administrator.DESKTOP-RDJ1NAF\Documents\UnityProject\UGFramework\Assets\UGFramework\Net\TcpNetworkChannel.cs" initialLine="35" containingFunctionPresentation="method 'Connect'">
-            <startOffsets>
-              <option value="1006" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1040" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="7" />
+          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
