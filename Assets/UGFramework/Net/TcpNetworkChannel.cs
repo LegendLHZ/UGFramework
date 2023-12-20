@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.IO;
 using System.Net;
 using System.Net.Sockets;
 using System.Text;
@@ -13,7 +14,7 @@ namespace UGFramework.Net
     {
         public string Name { get; }
         public Socket Socket { get; private set; }
-        public bool Connected => Socket.Connected;
+        public bool Connected => Socket != null && Socket.Connected;
         public long SentPacketCount { get; private set; }
         public long ReceivedPacketCount { get; private set; }
         /// <summary>
@@ -51,6 +52,8 @@ namespace UGFramework.Net
         private IPAddress _address;
         private int _port;
 
+        private MemoryStream _receiveMemoryStream = new MemoryStream(1024 * 64);
+
         public TcpNetworkChannel(string name)
         {
             Name = name;
@@ -58,11 +61,6 @@ namespace UGFramework.Net
             connectCallback = ConnectCallback;
             sendCallback = SendCallback;
             receiveCallback = ReceiveCallback;
-        }
-
-        private void ReceiveCallback(IAsyncResult ar)
-        {
-            
         }
 
         private void SendCallback(IAsyncResult ar)
@@ -101,6 +99,46 @@ namespace UGFramework.Net
             _isReconnecting = false;
             _reconnectedCount = 0;
             ConnectSuccessEvent?.Invoke();
+            ReceiveAsync();
+        }
+        
+        private void ReceiveAsync()
+        {
+            try
+            {
+                var buff = _receiveMemoryStream.GetBuffer();
+                Socket.BeginReceive(buff, 0, buff.Length, SocketFlags.None, receiveCallback, Socket);
+            }
+            catch (Exception exception)
+            {
+                Debug.Log("UGNet---->" + exception);
+            }
+        }
+        
+        private void ReceiveCallback(IAsyncResult ar)
+        {
+            if (!Socket.Connected)
+            {
+                return;
+            }
+
+            int bytesReceived = 0;
+            try
+            {
+                bytesReceived = Socket.EndReceive(ar);
+            }
+            catch (Exception exception)
+            {
+                return;
+            }
+
+            if (bytesReceived <= 0)
+            {
+                Close();
+                return;
+            }
+
+            ReceiveAsync();
         }
 
         /// <summary>
